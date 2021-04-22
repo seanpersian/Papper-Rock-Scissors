@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html lang="en" dir="ltr">
+  <head>
+    <meta charset="utf-8">
+    <title>Rock & scissors</title>
+    <link rel="stylesheet" href="styles.css">
+    <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.15.3/css/all.css" integrity="sha384-SZXxX4whJ79/gErwcOYf+zWLeJdY/qpuqC4cAa9rOGUstPomtqpuNWT9wdPEn2fk" crossorigin="anonymous">
+  </head>
+  <body>
+
+    <header>
+      <h1>Rock Paper Scissors</h1>
+    </header>
+
+    <div class="score-board">
+      <div id="user-lable" class="badge">user</div>
+      <div id="comp-lable" class="badge">comp</div>
+      <span id="user-score">0</span>:<span id="computer-score">0</span>
+    </div>
+    <div class="result">
+     <p>Paper covers rock. You win!</p>
+  </div>
+  <div class="choices">
+    <div class="choice" id="r">
+  <i class="button far fa-hand-rock"></i>
+    </div>
+    <div class="choice" id="p">
+      <i class="button far fa-hand-paper"></i>
+    </div>
+    <div class="choice" id="s">
+    <i class="button far fa-hand-scissors"></i>
+    </div>
+  </div>
+
+  <p id="action-message">Make your move.</p>
+  <script src="app.js" charset="utf-8"></script>
+  </body>
+</html>
